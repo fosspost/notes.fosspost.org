@@ -1,6 +1,6 @@
 # Btrfs
 
-## Problem: Programs Suddenly Stop Working/Crash
+## [Problem] Programs Suddenly Stop Working/Crash
 
 ### Description
 
@@ -12,8 +12,20 @@ Firefox, Steam, Zypper, Chromium and a lot of other apps may just stop working s
 
     WARNING: Unix error 28 during operation move on file /myuser/.mozilla/firefox/xofrqlc6.default/saved-telemetry-pings/xxxxxxxx-bbd4-468a-a034-19111020d2ce.tmp (No space left on device)
     
-This is because of a strange bug with some Btrfs installation. The system doesn't recognize that it has free space to use. Which makes software crash instantly when there's not enough space for them.
+This is because of a strange bug with some Btrfs installations. The system doesn't recognize that it has free space to use. Which makes software crash instantly when there's not enough space for them.
 
 ### Solution
 
 As a workaround, you may remove some big files/data from your hard disk in order to get everything to work again.
+
+## [Problem] df command doesn't show enough output about Btrfs filesystems
+
+### Description
+
+If you use *df* with options like *-i*, you may see empty output or not enough information about the disks.
+
+### Solution
+
+Use *btrfs* command and its utilities to manipulate Btrfs partitions:
+
+    sudo btrfs filesystem df /
