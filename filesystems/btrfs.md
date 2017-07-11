@@ -1,0 +1,19 @@
+# Btrfs
+
+## Problem: Programs Suddenly Stop Working/Crash
+
+### Description
+
+Sometimes, you may encounter different problems on distributions running on Btrfs filesystem because of "no disk space" error. Although you may have some free disk space, you would notice that a lot of applications and programs are suddenly crashing.
+
+Firefox, Steam, Zypper, Chromium and a lot of other apps may just stop working suddenly with errors like:
+
+    Cannot write file '/var/adm/mount/AP_0xBl0ihT/repodata/repomd.xml'.
+
+    WARNING: Unix error 28 during operation move on file /myuser/.mozilla/firefox/xofrqlc6.default/saved-telemetry-pings/xxxxxxxx-bbd4-468a-a034-19111020d2ce.tmp (No space left on device)
+    
+This is because of a strange bug with some Btrfs installation. The system doesn't recognize that it has free space to use. Which makes software crash instantly when there's not enough space for them.
+
+### Solution
+
+As a workaround, you may remove some big files/data from your hard disk in order to get everything to work again.
