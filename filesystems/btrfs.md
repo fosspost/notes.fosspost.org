@@ -18,14 +18,14 @@ This is because of a strange bug with some Btrfs installations. The system doesn
 
 As a workaround, you may remove some big files/data from your hard disk in order to get everything to work again.
 
-## [Problem] df command doesn't show enough output about Btrfs filesystems
+## [Problem] df Command Doesn't Show Enough Output About Btrfs Filesystems
 
 ### Description
 
-If you use *df* with options like *-i*, you may see empty output or not enough information about the disks.
+If you use **df** with options like **-i**, you may see empty output or not enough information about the disks.
 
 ### Solution
 
-Use *btrfs* command and its utilities to manipulate Btrfs partitions:
+Use **btrfs** command and its utilities to manipulate Btrfs partitions:
 
     sudo btrfs filesystem df /
