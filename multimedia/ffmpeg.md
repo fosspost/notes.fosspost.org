@@ -12,4 +12,6 @@ First, record your needed video as a raw video using ffmpeg, then convert it int
 
 	ffmpeg -f x11grab -i $DISPLAY -codec:v pam -f rawvideo output.pam
 
-	convert -layers Optimize -fuzz 10% output.pam output.gif
+	convert -layers Optimize output.pam output.gif
+
+Additionally, you can use the **-fuzz 10%** option to get better size. But as you increase the fuzz percentage. The quality will increase. Note that the temproary raw video size is huge; maybe a hundreds of megabytes. So you need to have some free disk space to avoid some weird caching errors.
