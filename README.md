@@ -38,6 +38,12 @@ Each entry can consist of the following subtitles:
 
 Use H1 for the file title. Use H2 for the entries title and use H3 for subtitles such as "Description" and others. Use additional markdown syntax according to your needs.
 
+At the end, the page should be sorted in the following arrangement: 
+
+1. Tips.
+2. Notes.
+3. Problems.
+
 ## License
 
 All the content provided here is released under the () license.
