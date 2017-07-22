@@ -8,9 +8,11 @@ FOSS Notes is a place where we: Users, developers, SysAdmins or DevOps engineers
 
 FOSS Notes is **not** a place for documentation! For this, you may refer to some other Linux distributions wikis and manuals. We are not trying to create docs, we are creating an online platform where we all share our useful notes together so that when someone needs an uncommon info about a free software, he can always find it here.
 
+The website can be found at: [Notes.foss-project.com](http://Notes.foss-project.com).
+
 ## Contributing
 
-Our GitHub repository can be found at: [https://github.com/foss-project/fossnotes](https://github.com/foss-project/fossnotes). You can send us a pull request from there. There's an automatic synchronization between this GitHub repository and [Notes.foss-project.com](http://Notes.foss-project.com). Your newly-added notes should be live in an hour or two.
+Check [our GitHub repository](https://github.com/foss-project/fossnotes). You can send us a pull request from there. There's an automatic synchronization between this GitHub repository and the website. Your newly-added notes should be live in an hour or two.
 
 Remember, this is FOSS **Notes**, not FOSS **DOCS**. Don't list usage options or everything you know about a software. Only write down your organized notes. Those notes may include:
 
@@ -41,3 +43,4 @@ At the end, the page should be sorted in the following arrangement:
 1. Tips.
 2. Notes.
 3. Problems.
+
