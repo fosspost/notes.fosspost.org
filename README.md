@@ -4,15 +4,13 @@
 
 ## About
 
-FOSS Notes is a place where we: Users, developers, SysAdmins or DevOps engineers collaborate together in order to create a set of useful and awesome notes about free and open source software. Those "notes" can be about some known bugs and their solutions, a quick-and-dirty tricks or other useful tips about the software.
+FOSS Notes is a place where we: Users, developers, SysAdmins or DevOps engineers collaborate together in order to create a set of useful and awesome notes about free and open source software. Those "notes" can be about some known bugs and their solutions, quick-and-dirty tricks or some other useful tips about FOSS software.
 
 FOSS Notes is **not** a place for documentation! For this, you may refer to some other Linux distributions wikis and manuals. We are not trying to create docs, we are creating an online platform where we all share our useful notes together so that when someone needs an uncommon info about a free software, he can always find it here.
 
-In order to view the notes online with an awesome search functionality, head to: [Notes.foss-project.com](http://Notes.foss-project.com). Our GitHub repository can be found at: [https://github.com/foss-project/notes](https://github.com/foss-project/notes). You can send us a pull request from there.
-
-There's an automatic synchronization process between this GitHub repository and [Notes.foss-project.com](http://Notes.foss-project.com). Your newly-added notes should be live in an hour or two.
-
 ## Contributing
+
+Our GitHub repository can be found at: [https://github.com/foss-project/fossnotes](https://github.com/foss-project/fossnotes). You can send us a pull request from there. There's an automatic synchronization between this GitHub repository and [Notes.foss-project.com](http://Notes.foss-project.com). Your newly-added notes should be live in an hour or two.
 
 Remember, this is FOSS **Notes**, not FOSS **DOCS**. Don't list usage options or everything you know about a software. Only write down your organized notes. Those notes may include:
 
@@ -43,10 +41,3 @@ At the end, the page should be sorted in the following arrangement:
 1. Tips.
 2. Notes.
 3. Problems.
-
-## License
-
-All the content provided here is released under the () license.
-
-
-
