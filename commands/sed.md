@@ -19,3 +19,22 @@ A new.svg file would be created containing the new text instead of the old. You 
 Check the [description of SVG files](https://inkscape.org/en/develop/about-svg/) in order to understand what you can change to obtain the results you want.
 
 This method is what FOSS Notes uses by the way to generate notes' thumbnails automatically using a Bash script. Nobody has the time to design all of this manually.
+
+
+## [Note] Sed Causes Files To Become Empty
+
+### Description
+
+If you are using Sed like this:
+
+    sed -e s/STRING1/STRING2/g oldfile > newfile
+
+Then you may notice that the contents of **newfile** are empty. This is because the **>** operator makes the Shell understands that it should open that file for writing. Which instantly removes all the contents from the file.
+
+### Solution
+
+A simple workaround would be:
+
+    sed -e s/STRING1/STRING2/g oldfile > newfile.tmp && mv newfile.tmp newfile
+
+
