@@ -44,3 +44,6 @@ At the end, the page should be sorted in the following arrangement:
 2. Notes.
 3. Problems.
 
+## License
+
+Users contributions are released under the public domain.

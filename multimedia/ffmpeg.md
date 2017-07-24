@@ -1,6 +1,6 @@
 # FFMPEG
 
-## [Problem] GIF Image Size Is Huge
+## [Tip] GIF Image Size Is Huge
 
 ### Description
 
@@ -14,4 +14,6 @@ First, record your needed video as a raw video using ffmpeg, then convert it int
 
 	convert -layers Optimize output.pam output.gif
 
-Additionally, you can use the **-fuzz 10%** option to get better size. But as you increase the fuzz percentage. The quality will increase. Note that the temproary raw video size is huge; maybe a hundreds of megabytes. So you need to have some free disk space to avoid some weird caching errors.
+Additionally, you can use the **-fuzz 10%** option to get better size. But as you increase the fuzz percentage. The quality will increase. 
+
+Note that the temproary raw video size is huge; maybe a hundreds of megabytes. So you need to have some free disk space to avoid some weird caching errors.
