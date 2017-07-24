@@ -10,10 +10,9 @@ If you try to use **ffmpeg** to record GIF images on your system, you will notic
 
 First, record your needed video as a raw video using ffmpeg, then convert it into a GIF image using ImageMagick:
 
-	ffmpeg -f x11grab -i $DISPLAY -codec:v pam -f rawvideo output.pam
-
+	ffmpeg -f x11grab -i $DISPLAY -codec:v pam -f rawvideo output.pam # Or whatever other options you want.
 	convert -layers Optimize output.pam output.gif
 
-Additionally, you can use the **-fuzz 10%** option to get better size. But as you increase the fuzz percentage. The quality will increase. 
+Additionally, you can use the **-fuzz 10%** option to get better size. But as you increase the fuzz percentage. The quality will decrease. 
 
 Note that the temproary raw video size is huge; maybe a hundreds of megabytes. So you need to have some free disk space to avoid some weird caching errors. After you are done of generating the GIF file from the raw video, you can remove it.
