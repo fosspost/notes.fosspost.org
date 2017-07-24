@@ -10,6 +10,10 @@ FOSS Notes is **not** a place for documentation! For this, you may refer to some
 
 The website can be found at: [Notes.foss-project.com](http://Notes.foss-project.com).
 
+Currently, our website is completly ad-free. However, someone should pay for hosting and other stuff. If you have an extra $1 to throw, consider supporting us on Patreon: 
+
+[![Patreon](http://i.imgur.com/qPoaRnH.png)](https://www.patreon.com/fossproject)
+
 ## Contributing
 
 Check [our GitHub repository](https://github.com/foss-project/fossnotes). You can send us a pull request from there. There's an automatic synchronization between this GitHub repository and the website. Your newly-added notes should be live in an hour or two.
