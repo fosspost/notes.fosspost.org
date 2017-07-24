@@ -16,6 +16,8 @@ Currently, our website is completly ad-free. However, someone should pay for hos
 
 [![Patreon](http://i.imgur.com/qPoaRnH.png)](https://www.patreon.com/fossproject)
 
+Our project is still booting up! Feel free to leave us your feedback about anything.
+
 ## Contributing
 
 Check [our GitHub repository](https://github.com/foss-project/fossnotes). You can send us a pull request from there. There's an automatic synchronization between this GitHub repository and the website. Your newly-added notes should be live in an hour or two.
