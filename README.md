@@ -4,11 +4,17 @@
 
 ## About
 
-FOSS Notes is a place where we: Users, developers, SysAdmins or DevOps engineers collaborate together in order to create a set of useful and awesome notes about free and open source software. Those "notes" can be about some known bugs and their solutions, quick-and-dirty tricks or some other useful tips about FOSS software.
+FOSS Notes is a place where users, developers, SysAdmins or DevOps engineers collaborate together in order to create a set of useful and awesome notes about free and open source software. Those "notes" can be about some known bugs and their solutions, quick-and-dirty tricks or some other useful tips about FOSS software.
 
-FOSS Notes is **not** a place for documentation! For this, you may refer to some other Linux distributions wikis and manuals. We are not trying to create docs, we are creating an online platform where we all share our useful notes together so that when someone needs an uncommon info about a free software, he can always find it here.
+Our aim is to save people's time when they Google for a weird issue or an unknown problem. Or if they may need some optimizations or tricks about the software they use.
 
-The website can be found at: [Notes.foss-project.com](http://Notes.foss-project.com).
+FOSS Notes is **not** a place for documentation! For this, you may refer to some other Linux distributions wikis and manuals. We are not trying to create docs, we are creating an online platform where we all share our useful notes together so that it benefits all of us instead of making them personal only.
+
+The website can always be found at: [Notes.foss-project.com](http://Notes.foss-project.com).
+
+Currently, our website is completly ad-free. However, someone should pay for hosting and other stuff. If you have an extra $1 to throw, consider supporting us on Patreon: 
+
+[![Patreon](http://i.imgur.com/qPoaRnH.png)](https://www.patreon.com/fossproject)
 
 ## Contributing
 
