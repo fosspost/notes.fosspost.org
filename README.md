@@ -53,3 +53,6 @@ At the end, the page should be sorted in the following arrangement:
 ## License
 
 Users contributions are released under the public domain.
+
+[![public domain](http://i.imgur.com/AEB5eGA.png)](http://fairuse.stanford.edu/overview/public-domain/welcome/)
+
