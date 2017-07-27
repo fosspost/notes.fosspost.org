@@ -32,4 +32,6 @@ As a workaround, you may remove some big files/data from your hard disk in order
 
 ## [Problem] Btrfs Doesn't Support Swap File
 
+### Description
+
 This is a known problem with Btrfs. Unfortunately, it doesn't have a solution. You'll need to create a separated swap partition in order to use it with a Btrfs filesystem.
