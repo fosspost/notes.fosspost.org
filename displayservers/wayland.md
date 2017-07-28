@@ -4,7 +4,7 @@
 
 ### Description
 
-A lot of applications still don't work natively on Wayland. For this, you need to run those applications using Xorg backend (or Xwayland layer).
+A lot of applications still don't work natively on Wayland. For this, you need to run those applications using Xorg backend.
 
 Some apps may never work on Wayland because of this. They may require Xorg backend.
 
