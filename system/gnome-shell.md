@@ -15,6 +15,6 @@ Install Gnome Tweak Tool and disable the "Background Logo" extension.
 
 Install Gnome Tweak Tool with the following command:
 
-    sudo install gnome-tweak-tool
+    sudo dnf install gnome-tweak-tool
 
 And then go to Extensions and disable the "Background Logo" extension.
