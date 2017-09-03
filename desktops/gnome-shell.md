@@ -10,7 +10,7 @@ The causes may vary depending on the hardware in hand, but a lot of users report
 
 ### Solution
 
-Install Gnome Tweak Tool and disable the "Background Logo" extension. And then go to "Extensions" tab and disable the "Background Logo" extension.
+Install GNOME Tweak Tool and disable the "Background Logo" extension. Or remove that extension however you like.
 
 ### Aditional Info
 
