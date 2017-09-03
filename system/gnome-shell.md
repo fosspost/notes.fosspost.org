@@ -1,5 +1,5 @@
-# High CPU Usage on Fedora Workstation (Gnome Shell)
-
+# Gnome Shell
+----
 ## [Problem] Gnome Shell Drains CPU Resources On Fedora
 
 ### Description
