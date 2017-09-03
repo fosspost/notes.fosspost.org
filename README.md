@@ -14,7 +14,7 @@ The website can always be found at: [Notes.foss-project.com](http://Notes.foss-p
 
 Our website is completely ad-free. However, someone has to pay for hosting and other stuff. If you have an extra $1 to throw, consider supporting us on Patreon: 
 
-[![Patreon](http://i.imgur.com/qPoaRnH.png)](https://www.patreon.com/fossproject)
+[![Patreon](https://i.imgur.com/qPoaRnH.png)](https://www.patreon.com/fossproject)
 
 Our project is still booting up! Feel free to leave us your feedback about anything. The number of notes we have is currently small since we just started. After few weeks, we hope to have hundreds of them! It won't happen without your pull requests.
 
