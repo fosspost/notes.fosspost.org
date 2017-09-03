@@ -4,7 +4,7 @@
 
 ### Description
 
-The process of deploying Flask applications with Nginx may be so hard if it was your first time. Fortunutly, you can now do it in few steps.
+The process of deploying Flask applications with Nginx may be so hard if it's your first time. Fortunutly, you can now do it in a few steps.
 
 ### Solution
 
@@ -33,7 +33,7 @@ Now, to make Nginx accept requests to it as a domain name, add the following to 
 
 	}
 	
-**sub.example.com** may be any domain name you want. Make sure the **uwsgi_pass** parameter is the same as the one you are using in your uwsgi command.
+**sub.example.com** can be any domain name you want. Make sure the **uwsgi_pass** parameter is the same as the one you are using in your uwsgi command.
 
 Finally, reload and restart your Nginx server:
 
@@ -50,6 +50,6 @@ You check for MySQL, firewall, fail2ban, configuration files and everything else
 
 ### Solution
 
-The problem is caused by the apache's **.htaccess** file. It is may not be fully comptabile with what nginx can understand.
+The problem is caused by the apache's **.htaccess** file. It may not be fully comptabile with what nginx can understand.
 
 Moving the hidden **.htaccess** file or removing would solve the issue. Note that you may lose redirections and other stuff you had in your original **.htaccess** file. And which could affect your work.

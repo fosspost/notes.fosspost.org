@@ -12,7 +12,7 @@ FOSS Notes is **not** a place for documentation! For this, you may refer to some
 
 The website can always be found at: [Notes.foss-project.com](http://Notes.foss-project.com).
 
-Our website is completly ad-free. However, someone should pay for hosting and other stuff. If you have an extra $1 to throw, consider supporting us on Patreon: 
+Our website is completely ad-free. However, someone has to pay for hosting and other stuff. If you have an extra $1 to throw, consider supporting us on Patreon: 
 
 [![Patreon](http://i.imgur.com/qPoaRnH.png)](https://www.patreon.com/fossproject)
 
@@ -24,7 +24,7 @@ Check [our GitHub repository](https://github.com/foss-project/fossnotes). You ca
 
 Remember, this is FOSS **Notes**, not FOSS **DOCS**. Don't list usage options or everything you know about a software. Only write down your organized notes. Those notes may include:
 
-* A bug which you faced during the usage of the software.
+* A bug which you faced during the use of the software.
 * A solution for that bug that you faced or a workaround.
 * A tip which is not generally known about a software.
 * An optimization for a software.
@@ -38,10 +38,10 @@ Use the following prefixes to describe your entries:
 * [Tip]: A quick-and-dirty trick related to the software or optimizations.
 * [Note]: It's not a bug nor a tip. Just something to be careful about when using the software.
 
-Each entry can consist of the following subtitles:
+Each entry should consist of the following subtitles:
 
 * Description: Describe the note, bug or tip you are talking about. Don't explain how to fix it or apply the tip here. Just explain what you are talking about or what you are going to do.
-* Solution: The solution or the workaround for the problem you faced. Or how to apply the tip or optimization you talked about before.
+* Solution: The solution or workaround for the problem you faced. Or how to apply the tip or optimization you talked about before.
 * Additional Information: You may add sources or links in this section.
 
 Use H1 for the file title. Use H2 for the entries title and use H3 for subtitles such as "Description" and others. Use additional markdown syntax according to your needs.

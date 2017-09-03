@@ -4,12 +4,12 @@
 
 ### Description
 
-If you place some scripts under **/etc/cron.hourly** or **/etc/cron.daily** and other Cron folders. You may notice that they do not work with you, or an error message like this appears:
+If you place some scripts under **/etc/cron.hourly** or **/etc/cron.daily** and other Cron folders. You may notice that they do not work, or an error message like this appears:
 
     run-parts: failed to exec /etc/cron.daily/script: Exec format error
     run-parts: /etc/cron.daily/script exited with return code 1
     
-This means that you didn't specify the shell to use in the beginning of the script.
+This means you didn't specify the shell to use in the beginning of the script.
 
 ### Solution
 
