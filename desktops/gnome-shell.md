@@ -12,6 +12,6 @@ The causes may vary depending on the hardware in hand, but a lot of users report
 
 Install GNOME Tweak Tool and disable the "Background Logo" extension. Or remove that extension however you like.
 
-### Additional Info
+### Additional Information
 
 You may read the [following question](https://ask.fedoraproject.org/en/question/62522/gnome-shell-very-high-cpu-usage-on-a-clean-install-f21/) on Ask Fedora.
