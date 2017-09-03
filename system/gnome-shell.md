@@ -1,5 +1,5 @@
 # Gnome Shell
-----
+
 ## [Problem] Gnome Shell Drains CPU Resources On Fedora
 
 ### Description
