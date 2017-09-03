@@ -13,8 +13,8 @@ The causes vary depending on the hardware in hand, but most users reported that 
 
 Install Gnome Tweak Tool and disable the "Background Logo" extension.
 
-Run as root:
+Install Gnome Tweak Tool with the following command:
 
     # dnf install gnome-tweak-tool
 
-Then go to Extensions and disable the "Background Logo" extension.
+And then go to Extensions and disable the "Background Logo" extension.
