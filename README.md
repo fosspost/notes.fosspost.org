@@ -10,7 +10,7 @@ Our aim is to save people's time when they Google for a weird issue or an unknow
 
 FOSS Notes is **not** a place for documentation! For this, you may refer to some other Linux distributions wikis and manuals. We are not trying to create docs, we are creating an online platform where we all share our useful notes together so that it benefits all of us instead of making them personal only.
 
-The website can always be found at: [Notes.foss-project.com](http://Notes.foss-project.com).
+The website can always be found at: [Notes.foss-project.com](https://Notes.foss-project.com).
 
 Our website is completely ad-free. However, someone has to pay for hosting and other stuff. If you have an extra $1 to throw, consider supporting us on Patreon: 
 
@@ -56,5 +56,5 @@ At the end, the page should be sorted in the following arrangement:
 
 Users contributions are released under the public domain.
 
-[![public domain](http://i.imgur.com/AEB5eGA.png)](http://fairuse.stanford.edu/overview/public-domain/welcome/)
+[![public domain](https://i.imgur.com/AEB5eGA.png)](http://fairuse.stanford.edu/overview/public-domain/welcome/)
 
