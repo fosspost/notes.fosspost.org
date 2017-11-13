@@ -53,3 +53,21 @@ You check for MySQL, firewall, fail2ban, configuration files and everything else
 The problem is caused by the apache's **.htaccess** file. It may not be fully comptabile with what nginx can understand.
 
 Moving the hidden **.htaccess** file or removing would solve the issue. Note that you may lose redirections and other stuff you had in your original **.htaccess** file. And which could affect your work.
+
+## [Problem] Upstream timed out (110: Connection timed out) / 504 Gateway Time-out
+
+### Description
+
+This problem is very common on nginx servers running WordPress sites. The reasons may vary according to your setup, but usually they are:
+
+* A bad WordPress plugin eating most PHP resources/requests.
+* Misconfigured PHP-FPM with nginx configuration file.
+* Low resources available on the server.
+
+### Solution
+
+If you are running a WordPress website, try disabling all the plugins that you have on your website. If this fixes the proble, then it's just a plugin problem. Now try enabling them one by one in order to see which one is responsible for that. Once you detect it, remove it or report to the plugin's developer.
+
+If that didn't help, make sure your server has enough resources? Check that via **ps -aux**, **free -m** and **df -h**. If you think you have low resources, then contact your provider to increase them. Try moving into another hosting.
+
+Else, check that the path for PHP-FPM socket or PHP-FPM address (like **127.0.0.1:9000** or **unix:/run/php/php-fpm.sock**) is the same one that you placed in nginx configuration file.
