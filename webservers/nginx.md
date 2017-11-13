@@ -66,8 +66,8 @@ This problem is very common on nginx servers running WordPress sites. The reason
 
 ### Solution
 
-If you are running a WordPress website, try disabling all the plugins that you have on your website. If this fixes the proble, then it's just a plugin problem. Now try enabling them one by one in order to see which one is responsible for that. Once you detect it, remove it or report to the plugin's developer.
+If you are running a WordPress website, try disabling all the plugins that you have on your website. If this fixes the problem, then it's just a plugin problem. Now try enabling them one by one in order to see which one is responsible for that. Once you detect it, remove it or report to the plugin's developer.
 
 If that didn't help, make sure your server has enough resources? Check that via **ps -aux**, **free -m** and **df -h**. If you think you have low resources, then contact your provider to increase them. Try moving into another hosting.
 
-Else, check that the path for PHP-FPM socket or PHP-FPM address (like **127.0.0.1:9000** or **unix:/run/php/php-fpm.sock**) is the same one that you placed in nginx configuration file.
+Else, check that the path for PHP-FPM socket or PHP-FPM address (like **127.0.0.1:9000** or **unix:/run/php/php-fpm.sock**) is the same one that you placed in nginx configuration file (in **/etc/nginx/nginx.conf** or **/etc/nginx/sites-enabled/default**).
