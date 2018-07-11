@@ -4,11 +4,11 @@
 
 ## About
 
-FOSS Notes is a place where users, developers, SysAdmins or DevOps engineers collaborate together in order to create a set of useful and awesome notes about free and open source software. Those "notes" can be about some known bugs and their solutions, quick-and-dirty tricks or some other useful tips about FOSS software.
+FOSS Notes is a place where users, developers, SysAdmins or DevOps engineers collaborate together in order to create a set of useful and awesome notes about free and open source software. Those "notes" can be about some known bugs and their solutions, quick-and-dirty tricks or some other useful tips about the software.
 
-Our aim is to save people's time when they Google for a weird issue or an unknown problem. Or if they may need some optimizations or tricks about the software they use.
+Our aim is to save people's time when they Google for a weird issue or an unknown problem. Or if they may need some optimizations or tricks about the software they use. Just upload your notes here and come back when you need to access them later.
 
-FOSS Notes is **not** a place for documentation! For this, you may refer to some other Linux distributions wikis and manuals. We are not trying to create docs, we are creating an online platform where we all share our useful notes together so that it benefits all of us instead of making them personal only.
+FOSS Notes is **not** a place for documentation! For this, you may refer to some other Linux distributions wikis and manuals. We are not trying to create docs, we are creating an online platform for notes & tips which everyone can share and build together.
 
 The website can always be found at: [Notes.foss-project.com](https://Notes.foss-project.com).
 
@@ -34,9 +34,9 @@ Everything you send should be in markdown format. You can create a folder about 
 
 Use the following prefixes to describe your entries:
 
-* [Problem]: Bug or problem which you encountered while using the software.
 * [Tip]: A quick-and-dirty trick related to the software or optimizations.
 * [Note]: It's not a bug nor a tip. Just something to be careful about when using the software.
+* [Problem]: Bug or problem which you encountered while using the software.
 
 Each entry should consist of the following subtitles:
 
