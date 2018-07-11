@@ -37,4 +37,14 @@ A simple workaround would be:
 
     sed -e s/STRING1/STRING2/g oldfile > newfile.tmp && mv newfile.tmp newfile
 
+## [Problem] Sed Outputs Correctly to Terminal, but not to Files
 
+### Description
+
+Sometimes you may notice that your **sed** command is printing its output to your terminal instead of just writing it to the file you chose. For example if you created a **sed** command to replace all occurrences of the word "test" in a file, you'll notice that **sed** is printing the changed file inside your terminal, not in the file.
+
+### Solution
+
+Make sure you are using the **-i** flag (inline mode) with your **sed** command. For example:
+
+    sed -i '/^#[^#]/a \'"$s" file.txt
