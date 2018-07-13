@@ -12,7 +12,7 @@ This is because openSUSE/SUSE is using a special GRUB version which is patched d
 
 ### Solution
 
-You must make openSUSE/SUSE control the GRUB bootloader. To do this, run the following commands after your replace /dev/sda1 with the openSUSE/SUSE partition you have:
+You must make openSUSE/SUSE control the GRUB bootloader. To do this, run the following commands after your replace **/dev/sda1** with the openSUSE/SUSE partition you have:
 
     mount /dev/sda1 /mnt
     mount --bind /dev /mnt/dev
