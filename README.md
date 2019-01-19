@@ -1,6 +1,6 @@
 # FOSS Notes
 
-![FOSS Notes](https://i.imgur.com/D6gfbNP.png)
+![FOSS Notes](https://i.ibb.co/SPs41P3/cover.png)
 
 ## About
 
